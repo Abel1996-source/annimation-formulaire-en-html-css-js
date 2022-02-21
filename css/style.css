@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+.container {
+    width: 50%;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: -50px;
+    right: 160px;
+}
+
+.input {
+    width: 100%;
+    overflow: hidden;
+    padding-right: 2rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+}
+
+.input i {
+    position: absolute;
+    right: 80px;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 3px;
+    padding: 25px;
+    width: 100%;
+    margin: 1rem;
+    color: black;
+    border: 1px solid #000;
+}
+
+.content {
+    padding: 20px;
+    margin-left: 1rem;
+    margin-right: 20px;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+    background-color: #fff;
+    width: 90%;
+}
+
+.content1 {
+    top: -3px;
+    display: none;
+}
+
+.content2 {
+    top: 97px;
+    display: none;
+}
+
+.content3 {
+    top: 200px;
+    display: none;
+}
+
+.content4 {
+    top: 305px;
+    display: none;
+}
+
+.content5 {
+    bottom: 0px;
+    display: none;
+}
+
+.active {
+    display: inline-block;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.icon div i {
+    color: red;
+    cursor: pointer;
+}
+
+.line1 {
+    transform: rotate(-765deg) translateY(6.5px);
+}
+
+.close {
+    display: none;
+}
+
+.p {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+button {
+    cursor: pointer;
+    width: 20%;
+    margin: 1rem;
+    padding: 1rem;
+    background: 0;
+    box-shadow: 5px 5px 0px rgba(243, 3, 135, 0.3), inset 5px 5px 0px rgba(243, 3, 135, 0.3);
+}
+
+button:hover {
+    box-shadow: 0px 0px 0px rgba(243, 3, 135, 0.3), inset 0px 0px 0px rgba(243, 3, 135, 0.3);
+}
